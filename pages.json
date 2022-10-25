@@ -1,0 +1,239 @@
+{
+	"pages": [{
+			"path": "pages/guide/guide",
+			"style": {
+				"navigationBarTitleText": "智慧城市"
+			}
+		}, {
+			"path": "pages/home/home",
+			"style": {
+				"navigationBarTitleText": "主页",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/toSearch/toSearch",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/home/tabBar/news/news",
+			"style": {
+				"navigationBarTitleText": "新闻",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/home/tabBar/service/service",
+			"style": {
+				"navigationBarTitleText": "全部服务",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/home/searchHouse/searchHouse",
+			"style": {
+				"navigationBarTitleText": "找房子",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/home/cloudManager/cloudManager",
+			"style": {
+				"navigationBarTitleText": "云端管理",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/home/governmentWork/governmentWork",
+			"style": {
+				"navigationBarTitleText": "政府工作",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/home/moreService/moreService",
+			"style": {
+				"navigationBarTitleText": "更多服务",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/home/tabBar/party/party",
+			"style": {
+				"navigationBarTitleText": "智慧党建",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/home/tabBar/my/my",
+			"style": {
+				"navigationBarTitleText": "个人中心",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/home/settings/settings",
+			"style": {
+				"navigationBarTitleText": "设备设置",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/home/errorScreen/errorScreen",
+			"style": {
+				"navigationBarTitleText": "错误排查",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/home/gift/gift",
+			"style": {
+				"navigationBarTitleText": "随赠品",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/home/rocket/rocket",
+			"style": {
+				"navigationBarTitleText": "火箭发射",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/home/teamwork/teamwork",
+			"style": {
+				"navigationBarTitleText": "团队工作",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/home/inspectCar/car-tabBar/inspect-record/inspect-record",
+			"style": {
+				"navigationBarTitleText": "预约记录",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/home/inspectCar/car-tabBar/car-manager/car-manager",
+			"style": {
+				"navigationBarTitleText": "车辆管理",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/home/inspectCar/car-tabBar/now-subscribe/now-subscribe",
+			"style": {
+				"navigationBarTitleText": "立即预约",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/home/inspectCar/inspectCar",
+			"style": {
+				"navigationBarTitleText": "检车",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"enablePullDownRefresh": false,
+				"navigationStyle":"custom"
+			}
+
+		}
+	    ,
+		{
+			"path": "pages/home/tabBar/news/newsDetails/newsDetails",
+			"style": {
+				"navigationBarTitleText": "详细信息",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+            "path" : "pages/home/tabBar/my/getInfo/getInfo",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "个人信息",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/home/tabBar/my/updateUserPassword/updateUserPassword",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "修改密码",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/home/tabBar/my/feedback/feedback",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "意见反馈",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/home/tabBar/my/getOrderList/getOrderList",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "订单列表",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {},
+	"tabBar": {
+
+		"list": [{
+				"pagePath": "pages/home/home",
+				"iconPath": "static/tabBar/home.png",
+				"selectedIconPath": "static/tabBar/home_down.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/home/tabBar/service/service",
+				"iconPath": "static/tabBar/service.png",
+				"selectedIconPath": "static/tabBar/service_down.png",
+				"text": "全部服务"
+			},
+			{
+				"pagePath": "pages/home/tabBar/party/party",
+				"iconPath": "static/tabBar/books.png",
+				"selectedIconPath": "static/tabBar/books_down.png",
+				"text": "智慧党建"
+			},
+			{
+				"pagePath": "pages/home/tabBar/news/news",
+				"iconPath": "static/tabBar/news.png",
+				"selectedIconPath": "static/tabBar/news_down.png",
+				"text": "新闻"
+			},
+			{
+				"pagePath": "pages/home/tabBar/my/my",
+				"iconPath": "static/tabBar/my.png",
+				"selectedIconPath": "static/tabBar/my_down.png",
+				"text": "我的"
+
+			}
+		]
+	}
+
+
+}
